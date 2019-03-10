@@ -1,0 +1,24 @@
+#logindiv{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+.enter{
+	display: block;
+	margin: auto;
+	width: 24%;
+	padding-top: 1%;
+}
+input[type=submit] {
+	display: block;
+    background-color: #0060ff;
+	margin: auto;
+	width: 100%;
+    border: none;
+    color: white;
+    font-size: 100%;
+	padding: 3%;
+}
+input[type=submit]:hover{
+	background-color: #8080a0;
+}

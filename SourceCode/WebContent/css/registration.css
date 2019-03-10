@@ -1,0 +1,11 @@
+#regform{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+.required:after {
+    content: " *";
+    color:red;
+
+}

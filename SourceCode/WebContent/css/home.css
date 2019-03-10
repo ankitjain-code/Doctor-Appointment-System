@@ -1,0 +1,38 @@
+#menu{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+table#choice{
+	width: 100%;
+}
+table#choice td{
+	text-align: center;
+	text-decoration: underline;
+}
+.text-anchor{
+	color: #0060ff;
+}
+.text-anchor:hover{
+	color: #8080a0;
+}
+.image-anchor:hover{
+	opacity: 0.75;
+}
+/*.choice{
+	display: inline-block;
+	background-color: #4880dd;
+	color: #ffffff;
+	border: white solid 1px;
+	text-align: center;
+	font-family: georgia, serif;
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: bold;
+	border-radius: 25px;
+	width: 24%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 2.5px;
+	padding-left: 2.5px;
+}*/

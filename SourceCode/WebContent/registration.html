@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital Management System</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/registration.css">
+<script type="text/javascript">
+function failed(){
+	alert("Registration Unsuccessful!\nTry Again..");
+}
+</script>
+</head>
+<body>
+	<div id="header">	
+		<img id="logo" src="images/hospital_logo.jpg" alt="hospital logo">
+		<a href=""><img class="nav-image" src="images/logout.jpg" alt="logout" style="float: right; padding-right: 10%"></a>
+		<a href="index.html"><img class="nav-image" src="images/home.jpg" alt="home" style="float: right; padding-right: 1%"></a>
+		<br>
+		<img id="landing" src="images/landing_1.jpg" alt="landing image">
+		<br>
+	</div>
+	<div id="regform">
+		<h3>Registration Form</h3>
+		<form name="registration" action="register" method="post">
+		
+			<label>Patient ID:</label><br><div class="required"><input type="text" name="id" placeholder="Enter your Aadhaar Number" autofocus required></input></div><br>
+			<label>Password:</label><br><div class="required"><input type="password" name="password" placeholder="Choose a Password" required></input></div><br>
+			<br><fieldset>
+				<legend>Personal Information:</legend>
+					<table>
+						<tr><td>First Name:</td><td>Last Name:</td></tr>
+						<tr><td><div class="required"><input type="text" name="fname " required></input></div></td><td><input type="text" name="lname"></input></td></tr>
+						<tr><td>Age:</td><td>Gender:</td></tr>
+						<tr><td><div class="required"><input type="number" name="age" min="0" max="120" required></input></div></td><td><select name="gender"><option>Male</option><option>Female</option><option>Others</option></select></td></tr>
+						<tr><td>Contact Number:</td></tr>
+						<tr><td><div class="required"><input type="text" name="contact" pattern="[0-9]*" title="Only numbers allowed" required></div></td></tr>
+						<tr><td>E-mail:</td></tr>
+						<tr><td><input type="email" name="email"></td></tr>
+						<tr><td>Residence Address:</td></tr>
+						<tr><td><textarea name="address" cols="40" rows="5"></textarea></td></tr>
+					</table>
+			</fieldset><br>
+			<input type="submit" name="Register"></input>
+		</form>
+	</div>
+	<div id="footer">
+	</div>
+</body>
+</html>

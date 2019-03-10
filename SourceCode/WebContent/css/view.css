@@ -1,0 +1,35 @@
+#viewcancel{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+table#viewCancel{
+	width: 100%;
+}
+tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+th{
+	color: #ffffff;
+	background-color: #000000;
+	text-align: left;
+}
+.doc{
+	display: block-inline;
+	width: 20%;
+	vertical-align: top;
+}
+.date{
+	display: block-inline;
+	width: 15%;
+	vertical-align: top;
+}
+.desc{
+	display: block-inline;
+	width: 40%;
+}
+.can{
+	display: block-inline;
+	width: 10%;
+	vertical-align: top;
+}
